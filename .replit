@@ -1,0 +1,3 @@
+language = "python3"
+run = "python3  Modificados/1.MetodoBiseccion_00121117_1.py"
+#run = "python3  Modificados/1.MetodoBiseccion_00121117_1.py"
