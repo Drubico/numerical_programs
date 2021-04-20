@@ -17,7 +17,7 @@ def bisection1(f, a, b, TOL, Nmax):
     for i in range(0, Nmax):
         p = (a + b)/2
         
-        print( "{:<5}".format(str(i)) + " | " + "{:<5}".format(str(p)) + " | " + "{:<5}".format(str(f(p)))  )
+        print( "{:<5}".format(str(i)) + " | " + "{:<25}".format(str(p)) + " | " + "{:<25}".format(str(f(p)))  )
         
         if ( f(p) == 0 or (b-a)/2 < TOL):
             print("\n" +"Los datos llegaron a: ")

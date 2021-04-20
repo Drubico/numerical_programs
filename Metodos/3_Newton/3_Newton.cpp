@@ -1,8 +1,12 @@
 #include <cstdio> //printf
 #include <cmath> //sin, cos
 
-double f(double x) { return cos(x) + 2.0*sin(x) + x*x; }
-double df(double x) { return -sin(x) + 2.0*cos(x) + 2.0*x; }
+double f(double x) { 
+    return cos(x) + 2.0*sin(x) + x*x; 
+}
+double df(double x) { 
+    return -sin(x) + 2.0*cos(x) + 2.0*x; 
+}
 
 void Newton(double p0, double TOL, int Nmax){
     double p = 0; //p will hold the current approximation

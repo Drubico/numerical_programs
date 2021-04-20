@@ -19,7 +19,7 @@ def newton(p0, TOL, Nmax):
         p = p0 - f(p0)/df(p0)
         
         print(str(i) + " \t " + str(p0) + " \t " + str(p) + " \t " + str(fabs(p-p0))) 
-        
+
         if (fabs(p-p0) < TOL):
             break
         else:
