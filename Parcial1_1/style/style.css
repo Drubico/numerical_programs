@@ -1,0 +1,49 @@
+:root{
+    background-image: url('../images/background.png');
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    background-image: url('../images/background.png');
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #ffffff;
+}
+.center{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+#resultados{
+    display:none;
+}   
+
+.whitetext{
+    color: #ffffff;
+}
+
+.margos{
+    margin:2em;
+}
+.padingo{
+    padding:1em;
+
+}
+
+table tr td, table tr th{
+    /* background-color: rgba(0,0,0,0.8) !important; */
+    /* color: white !important; */
+}
